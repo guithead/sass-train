@@ -1,0 +1,19 @@
+//Mixins
+@mixin anchor-style {
+  padding: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  text-decoration: none;
+}
+
+@mixin list-style {
+  list-style: none;
+  padding-left: 0;
+}
+
+@mixin paragraph-style {
+  color: $paragraph-text-color;
+  font-size: 2rem;
+  max-width: 40ch;
+  margin: 2rem auto;
+}
